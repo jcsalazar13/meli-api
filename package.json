@@ -1,0 +1,22 @@
+{
+  "name": "meli-api",
+  "version": "1.0.0",
+  "description": "Api para challenge MELI",
+  "main": "server.js",
+  "scripts": {
+    "start": "env-cmd -f ./.env nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.19"
+  }
+}
